@@ -127,6 +127,29 @@ console.error(a)
 
 console.log(parseInt(b))
 //It parse the value to integer
+//output: 2020
+
+console.log(Boolean(a))
+//It displays true if it has not null parameter
+//output:true
+
+let num = '999.666'
+console.log(Number(num))
+//It accepts a numbered string or boolean true or false and convert it to number
+//output: 999.666
+
+let c = '2029 onwards'
+console.log(parseFloat(c))
+//It parses the number from the string and displays It
+//output: 2029
+
+console.log(isNaN(b))
+//It checks whether the given parameter is number or not
+//output: false
+
+
+//------------------------------------------------------------------------
+
 
 
 
