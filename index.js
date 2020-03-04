@@ -143,8 +143,13 @@ console.log(Number(num))
 //It accepts a numbered string or boolean true or false and convert it to number
 //output: 999.666
 
+String(123456)
+//It converts the parameter to string
+//output: '123456'
+
 let c = '2029 onwards'
 console.log(parseFloat(c))
+console.log(parseFloat(b))
 //It parses the number from the string and displays It
 //output: 2029
 
