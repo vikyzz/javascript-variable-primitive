@@ -114,7 +114,12 @@ console.warn(a)
 //output: value(in yellow color)
 
 console.error(a)
+//displays error message
 //output: value(in red color)
+
+console.table('a','b')
+//displays data inform of table
+//output: a b
 
 //alert('alert message')
 //displays a alert message
