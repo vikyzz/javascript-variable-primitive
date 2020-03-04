@@ -79,3 +79,55 @@ console.log(a.trim())
 //it removes extra spaces from both the sides
 
 
+//------------------------------------------------------------------------
+
+//number methods
+
+let  b = 2020.2090
+console.log(b.toFixed(2))
+//It is used to fix the number of decimal digits
+//output: 2020.20
+
+console.log(b.toExponential(2))
+//It converts the number to exponential from
+//output: 2.02e+3
+
+b = b.toString()
+console.log(b+' '+typeof b)
+console.log(`${b} ${typeof b}`)
+//It is used to change the number type to string
+
+//------------------------------------------------------------------------
+
+//global methods
+
+console.info(a)
+//displays the info of the variable
+//output: value
+
+console.log(b)
+//displays the value in console
+//output: 2020.209
+
+console.warn(a)
+//displays a warning message
+//output: value(in yellow color)
+
+console.error(a)
+//output: value(in red color)
+
+//alert('alert message')
+//displays a alert message
+
+//let x = prompt(a)
+//displays a textbox in the prompt
+
+//let y = confirm(a)
+//It is used to confirm a action that is done
+
+console.log(parseInt(b))
+//It parse the value to integer
+
+
+
+
